@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <script>
+        // Mảng ds lớp 
+        var classed = [
+            {
+                maSv     : "SV01",
+                name     : "Nguyễn Duy Hoàng",
+                class    : "Tin10a7",
+                phone    : 0124114113,
+            },
+
+            {
+                maSv     : "SV02",
+                name     : "Jang A Páo",
+                class    : "Tin10a7",
+                phone    : 094213222,
+            },
+
+            {
+                maSv     : "SV03",
+                name     : "Sùng A Cha",
+                class    : "Tin10a7",
+                phone    : 2321312321,
+            },
+        ];
+        console.log( 'Số điện thoại gốc : ' + classed[0].phone);
+        var setupPhone = {
+            maSv     : "SV01",
+            name     : "Nguyễn Duy Hoàng",
+            class    : "Tin10a7",
+            phone : 0972853498,
+        };
+        classed[0]= setupPhone;
+        console.log('Số điện thoại mới đổi: ' + classed[0].phone);
+
+        // Mảng 1 ds nhân viên
+        var nV = [
+            {
+                maNv    : 'NV01',
+                tenNv   : 'LiChanDam',
+                age     : 21
+            },
+
+            {
+                maNv    : 'NV02',
+                tenNv   : 'Lệnh hồ sung',
+                age     : 20
+            },
+
+            {
+                maNv    : 'NV03',
+                tenNv   : 'Cao Toàn Mĩ',
+                age     : 19
+            },
+
+            {
+                maNv    : 'NV04',
+                tenNv   : 'Lê quang Điệt',
+                age     : 23
+            },
+        ];
+
+        console.log(nV[3]);
+    </script>
+</body>
+</html>
